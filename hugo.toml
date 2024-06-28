@@ -1,0 +1,4 @@
+baseURL = 'https://snehasaisneha.github.io/saisneha.com/'
+languageCode = 'en-us'
+title = 'Hurtling Through Space'
+theme = "hugo-theme-minos"
