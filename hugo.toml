@@ -1,4 +1,32 @@
-baseURL = 'https://snehasaisneha.github.io/saisneha.com/'
+baseURL = 'https://saisneha.com/'
 languageCode = 'en-us'
 title = 'Hurtling Through Space'
 theme = "hugo-theme-minos"
+
+[permalinks]
+  [permalinks.page]
+    posts = '/:year/:month/:slug/'
+  [permalinks.section]
+    posts = '/posts/'
+
+[taxonomies]
+    series = "series"
+    tags = "tags"
+
+[menus]
+  [[menus.main]]
+    name = 'Series'
+    pageRef = '/series/'
+    weight = 10
+  [[menus.main]]
+    name = 'De-FAANGing my Life'
+    pageRef = '/series/de-faang/'
+    weight = 20
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about/'
+    weight = 30
+
+[params.author]
+name = "Sneha S"
+email = "ping@saisneha.com"
