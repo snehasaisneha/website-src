@@ -3,7 +3,7 @@ title = 'De-FAANGing and De-googling my Life Ep #1: Framework and Dragons'
 date = 2024-06-29
 series = ["de-faang"]
 tags = ["defaanging","degoogleing"]
-slug = "de-faanging-and-de-googling-my-life-ep-#1-framework-and-dragons"
+slug = "de-faanging-and-de-googling-my-life-ep-%231-framework-and-dragons"
 +++
 
 
