@@ -143,3 +143,4 @@ dmypy.json
 
 # All Data Files
 *.csv
+# .hugo_build.lock
