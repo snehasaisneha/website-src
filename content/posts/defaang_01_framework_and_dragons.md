@@ -3,15 +3,16 @@ title = 'De-FAANGing and De-googling my Life Ep #1: Framework and Dragons'
 date = 2024-06-29
 series = ["de-faang"]
 tags = ["defaanging","degoogleing"]
+slug = "de-faanging-and-de-googling-my-life-ep-#1-framework-and-dragons"
 +++
 
 
-Over the last few years, I've experimented with various online services, free and paid, and explored their feature sets, advantages, and disadvantages. In recent months, I have come to the difficult conclusion that my set up, honed over the past many years, is not only sub-optimal, but is also waiting to break. I've also realised that there is a great deal of dependency on Google, Apple, Microsoft, and other similar large tech companies, a group of corporations that used to, very aptly, be referred to as [FAANG](https://en.wikipedia.org/wiki/Big_Tech). I now wish to remedy this.
+Over the last few years, I've experimented with various online services, free and paid, and explored their feature sets, advantages, and disadvantages. In recent months, I have come to the difficult conclusion that my set up, honed over the past many years, is not only sub-optimal, but is also waiting to break. I've also realised that there is a great deal of dependency on Google, Apple, Microsoft, and other similar large tech companies, a group of corporations that used to, very aptly, be referred to as [FAANG](https://en.wikipedia.org/wiki/Big_Tech "Big Tech"). I now wish to remedy this.
 
 <!--more-->
 
 ## Why now?
-This is a tougher question to answer. Two weeks ago, in a bout of productive procrastination, I wanted to finally get my website up and running so I could blog regularly. I wished to move my writing away from substack, as it offered me very less customisation, and mostly because [I don't like Nazis and would not want my writing to appear next to theirs](https://www.platformer.news/why-platformer-is-leaving-substack/). I also wanted to see where to set my domain up so I could finally make the switch away from gmail and google services. Going through a whole bunch of ```r/Privacy``` threads, and various other blogs, gave me a lot of good starting points. 
+This is a tougher question to answer. Two weeks ago, in a bout of productive procrastination, I wanted to finally get my website up and running so I could blog regularly. I wished to move my writing away from substack, as it offered me very less customisation, and mostly because [I don\'t like Nazis and would not want my writing to appear next to theirs](https://www.platformer.news/why-platformer-is-leaving-substack/). I also wanted to see where to set my domain up so I could finally make the switch away from gmail and google services. Going through a whole bunch of ```r/Privacy``` threads, and various other blogs, gave me a lot of good starting points. 
 
 The other point accelerating this overdue reimagination is the LLM/AI hype that seems to be pervading both Big Tech and the other smaller Big Tech companies. Companies like Miro, Slack, Notion, and so many more, are being sucked into this hype, and, the end result is inevitably that the users are subject to even more intrusive privacy policies and terms and conditions. This same trend is also on Instagram, Twitter, and similar social networking sites.
 
@@ -48,18 +49,17 @@ These lists are non-exhaustive, and will be updated over time.
 A crucial point to note is - I am already currently enmeshed in quite a few ecosystems. My hardware is very Apple centric, and a lot of online services I use are from Microsoft and Google. So there are immediate pain points to be identified here.
 
 1. My current device is a MacBook, and my phone is an iPhone.
-2. My primary email is still google, and though I am slowly attempting a migration to a custom domain email using Fastmail, it will take time. I can already hear someone saying that Fastmail has servers situated in Australia which might have to comply with US NSA requests. 
-   1.  It's a compromise.
+2. My primary email is still google, and though I am slowly trialing a migration to a custom domain email using Fastmail, it will take time. Fastmail is NOT E2EE, and this means that a potential backdoor just exists, which might make them vulnerable to requests from law enforcement in India and abroad.
+   1.  However, for now, I want the flexibility to use 3rd party email and calendar clients. Proton Mail, the other good alternative, has limitations in how it relays with IMAP email clients due to 2FA and E2EE. 
    2.  [They claim they're immune to such requests.](https://www.fastmail.com/blog/fastmails-servers-are-in-the-us-what-this-means-for-you/)
-   3.  Proton Mail, the other good alternative, has limitations in how it relays with IMAP email clients due to 2FA. It's a compromise, and I don't mind. Same with tuta, mailbox, and other similar alternatives. 
-   4.  I'm setting up my mail on my own domain - which will allow me to port when I find a reliable alternative I can stick to. And I will do that.
+   3.  I'm setting up my mail on my own domain - which will allow me to port when I find a reliable alternative I can stick to. And I will do that.
 3. I designed the current version of this website using hugo and a custom theme I found online. The theme I forked is hosted on github, as is my source code, which deploys the site using Github Actions. I am currently editing this in VS Code. Both Github and VS Code are owned by a Big 5 corp.
 4. I communicate with most of my friends and my partner on WhatsApp, owned by Meta. I live in India, and it's simply the only practical option available. I am attempting to move away from WhatsApp for any long form communication, with the focus being interim communication, logistics, etc. I also do use iMessage, however sparingly, and do prefer aspects of iMessage to WhatsApp. But I would ideally move away from both - and hope to reach that place in the near future. In that case, WhatsApp or iMessage would not matter to me, and would only hold information regarding logistics of meeting elsewhere. This might involve switching on disappearing messages by default, and purging all old chats from memory, while exporting the important ones to my desktop. (WhatsApp also makes it very hard to migrate from one platform to another, a point that has always made me hate the platform.)
 5. For any service that's ostensibly not needed to backup anything for me - I'd like to use services that do not need an email ID to sign on. I am currently using the [Arc Browser](https://arc.net), a very intuitive browser with great work-life separation capabilities. But - it needs an email ID to sign in, and this might make me have to migrate to Firefox or Brave.
 
 ### A Note on Jumping Ship
 
-The point is - there are many dragons to slay. We gotta do this one day at a time. And no system will be perfect. We're aiming for better. I want to keep writing this series every week, and see how my progress varies over time.
+The point is - there are many dragons to slay. I gotta do this one day at a time. And no system will be perfect. We're aiming for better. I want to keep writing this series every week, and see how my progress varies over time.
 
 This could mean a lot of things over time. The biggest change might come down to moving from an iPhone to an Android over time - to allow myself the customisation I need. Completely getting rid of the reliance on the big companies will take time. But, it's definitely on the roadmap.
 
