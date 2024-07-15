@@ -3,7 +3,7 @@ title = 'Migrating my Mail and Cloud (De-Faanging my Life Ep #2)'
 date = 2024-07-13T17:02:16+05:30
 series = ["de-faang"]
 tags = ["defaanging","degoogleing"]
-slug = "migrating-my-mail-and-cloud-de-faanging-my-life-ep-%232"
+slug = "migrating-my-mail-and-cloud-de-faanging-my-life-ep-2"
 +++
 
 So, as I explained [two weeks back](/2024/06/de-faanging-and-de-googling-my-life-ep-%231-framework-and-dragons/), I'm making a concerted effort to move away from the big tech giants - opting for smaller, privacy centric options. This week, I'm going to document my journey there in a few key areas - Mail, Calendar, Meetings, and Cloud storage. I will be rambling quite a bit. 
