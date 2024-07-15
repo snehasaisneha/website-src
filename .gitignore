@@ -142,4 +142,4 @@ dmypy.json
 .DS_Store
 
 # All Data Files
-*.csvpublic/
+*.csv
