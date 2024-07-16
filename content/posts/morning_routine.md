@@ -1,6 +1,6 @@
 +++
 title = 'Building a Morning Routine'
-date = 2024-07-03T11:12:56+05:30
+date = 2024-07-16
 slug = "morning_routine_1"
 [params]
   author = 'Sneha S'
