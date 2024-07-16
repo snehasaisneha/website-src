@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-16T12:21:34+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/voip/</loc>
+    <lastmod>2024-07-16T12:21:34+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/voip/voip-1-the-voices-in-my-head-over-an-ip/</loc>
+    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/voip/</loc>
+    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/series/de-faang/</loc>
     <lastmod>2024-07-13T17:02:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/defaanging/</loc>
     <lastmod>2024-07-13T17:02:16+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/defaang/</loc>
+    <lastmod>2024-07-13T17:02:16+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/degoogleing/</loc>
     <lastmod>2024-07-13T17:02:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-13T17:02:16+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/2024/07/migrating-my-mail-and-cloud-de-faanging-my-life-ep-2/</loc>
-    <lastmod>2024-07-13T17:02:16+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-07-13T17:02:16+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/defaang/migrating-my-mail-and-cloud-de-faanging-my-life-ep-2/</loc>
     <lastmod>2024-07-13T17:02:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-13T17:02:16+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2024/06/de-faanging-and-de-googling-my-life-ep-1-framework-and-dragons/</loc>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-05T06:59:53+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/defaang/de-faanging-and-de-googling-my-life-ep-1-framework-and-dragons/</loc>
     <lastmod>2024-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/2024/06/getting-started/</loc>

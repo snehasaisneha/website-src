@@ -1,10 +1,9 @@
 +++
 title = 'Building a Morning Routine'
 date = 2024-07-03T11:12:56+05:30
-draft = true
 slug = "morning_routine_1"
 [params]
-  author = 'Sneha S A'
+  author = 'Sneha S'
 +++
 
 Building a morning routine is...tough. Life gets in the way, there are crises to resolve and fires to put out, and sleep is often deprioritised. Once that happens, mornings are groggy, and waking up gets progressively more annoying.

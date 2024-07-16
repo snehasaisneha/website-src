@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>De-FAANGing my Life on Hurtling Through Space</title>
-    <link>http://localhost:1313/series/de-faang/</link>
-    <description>Recent content in De-FAANGing my Life on Hurtling Through Space</description>
+    <title>Defaangs on Hurtling Through Space</title>
+    <link>http://localhost:1313/defaang/</link>
+    <description>Recent content in Defaangs on Hurtling Through Space</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hello@saisneha.com (Sneha S)</managingEditor>
     <webMaster>hello@saisneha.com (Sneha S)</webMaster>
     <lastBuildDate>Sat, 13 Jul 2024 17:02:16 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/de-faang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/defaang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating my Mail and Cloud (De-Faanging my Life Ep #2)</title>
       <link>http://localhost:1313/defaang/migrating-my-mail-and-cloud-de-faanging-my-life-ep-2/</link>

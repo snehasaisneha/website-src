@@ -17,15 +17,19 @@ theme = "hugo-theme-minos"
   [[menus.main]]
     name = 'Series'
     pageRef = '/series/'
-    weight = 10
+    weight = 50
+  [[menus.main]]
+    name = 'VoIP'
+    pageRef = '/series/voip/'
+    weight = 20
   [[menus.main]]
     name = 'De-FAANGing my Life'
     pageRef = '/series/de-faang/'
-    weight = 20
+    weight = 30
   [[menus.main]]
     name = 'About'
     pageRef = '/about/'
-    weight = 30
+    weight = 40
 
 [params.author]
 name = "Sneha S"
