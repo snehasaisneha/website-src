@@ -2,6 +2,7 @@
 title = 'Building a Morning Routine'
 date = 2024-07-16
 slug = "morning_routine_1"
+draft = true
 [params]
   author = 'Sneha S'
 +++
