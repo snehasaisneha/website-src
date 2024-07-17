@@ -1,9 +1,8 @@
 +++
-title = 'The Voices in my head over an Internet Protocol - VoIP #1'
+title = 'The Voices in my head over an Internet Protocol - VHoIP #1'
 date = 2024-07-17
 series = ["vhoip"]
 slug = "vhoip-1-the-voices-in-my-head-over-an-ip-week-of"
-draft = true
 +++
 
 I wanted to have a way to just jot down the various voices running through my head - perhaps it would be of some use to whoever else stumbles upon this.
