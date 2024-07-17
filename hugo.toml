@@ -19,11 +19,11 @@ theme = "hugo-theme-minos"
     pageRef = '/series/'
     weight = 50
   [[menus.main]]
-    name = 'VoIP'
-    pageRef = '/series/voip/'
+    name = 'VHoIP'
+    pageRef = '/series/vhoip/'
     weight = 20
   [[menus.main]]
-    name = 'De-FAANGing my Life'
+    name = 'De-FAANG'
     pageRef = '/series/de-faang/'
     weight = 30
   [[menus.main]]
