@@ -1,6 +1,6 @@
 baseURL = 'https://saisneha.com/'
 languageCode = 'en-us'
-title = 'Sneha - Hurtling Through Space'
+title = 'hurtling through space'
 theme = "hugo-theme-minos"
 
 [permalinks]
