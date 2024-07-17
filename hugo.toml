@@ -1,6 +1,6 @@
 baseURL = 'https://saisneha.com/'
 languageCode = 'en-us'
-title = 'Hurtling Through Space'
+title = 'Sneha - Hurtling Through Space'
 theme = "hugo-theme-minos"
 
 [permalinks]
@@ -34,3 +34,6 @@ theme = "hugo-theme-minos"
 [params.author]
 name = "Sneha S"
 email = "hello@saisneha.com"
+
+[params]
+  smartToc = true

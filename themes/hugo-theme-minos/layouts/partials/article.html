@@ -39,12 +39,12 @@
         </div>
 
         {{ if not .Params.notoc }}
-        {{ if .TableOfContents }}
-        <div class="article-toc" {{ if .Site.Params.SmartToc }}style="display:none;"{{ end }}>
-            <h3>{{ T "Contents" }}</h3>
-            {{ .TableOfContents }}
-        </div>
-        {{ end }}
+            {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+                <div class="article-toc" {{ if .Site.Params.SmartToc }}style="display:none;"{{ end }}>
+                    <h3>{{ T "Contents" }}</h3>
+                    {{ .TableOfContents }}
+                </div>
+            {{ end }}
         {{ end }}
 
         {{ if .Site.Params.SmartToc }}
