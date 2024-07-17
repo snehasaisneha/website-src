@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Voices in my head over an Internet Protocol on Hurtling Through Space</title>
-    <link>https://saisneha.com/series/voip/</link>
+    <link>http://localhost:1313/series/voip/</link>
     <description>Recent content in Voices in my head over an Internet Protocol on Hurtling Through Space</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hello@saisneha.com (Sneha S)</managingEditor>
     <webMaster>hello@saisneha.com (Sneha S)</webMaster>
-    <atom:link href="https://saisneha.com/series/voip/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/series/voip/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
