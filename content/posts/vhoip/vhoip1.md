@@ -1,5 +1,5 @@
 +++
-title = 'The Voices in my head over an Internet Protocol - VHoIP #1'
+title = 'The Voices in my Head over an Internet Protocol - VHoIP #1'
 date = 2024-07-17
 series = ["vhoip"]
 slug = "vhoip-1-the-voices-in-my-head-over-an-ip-week-of"
