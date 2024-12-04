@@ -14,6 +14,5 @@ TODO:
 1. Remove mentions of Google Analytics from theme.
 2. Add About Page and Getting Started.
 3. Add CV page.
-4. Integrate newsletter.
-5. Add comments section.
+4. Add comments section.
 

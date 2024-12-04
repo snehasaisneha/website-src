@@ -1,7 +1,281 @@
-<!doctype html><html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>De-FAANGing and De-googling my Life Ep #1: Framework and Dragons // hurtling through space</title>
-<meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=author content="map[email:hello@saisneha.com name:Sneha S]"><meta property="og:title" content="De-FAANGing and De-googling my Life Ep #1: Framework and Dragons"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:locale" content="en"><meta property="og:url" content="http://localhost:1313/2024/06/de-faanging-and-de-googling-my-life-ep-1-framework-and-dragons/"><link rel="shortcut icon" href=/favicon.ico><link href=http://localhost:1313/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=http://localhost:1313/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><link rel=stylesheet href=http://localhost:1313/css/style.css><meta name=generator content="Hugo 0.128.0"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a><a id=logo class=logo-text href=http://localhost:1313/>hurtling through space</a><nav id=main-nav><a class=main-nav-link href=/series/vhoip/>VHoIP</a>
-<a class=main-nav-link href=/series/de-faang/>De-FAANG</a>
-<a class=main-nav-link href=/about/>About</a>
-<a class=main-nav-link href=/series/>Series</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>De-FAANGing and De-googling my Life Ep #1: Framework and Dragons</h1></header><div class=article-meta><a href=/2024/06/de-faanging-and-de-googling-my-life-ep-1-framework-and-dragons/ class=article-date><time datetime=2024-06-29T00:00:00.000+00:00 itemprop=datePublished>2024-06-29</time></a><div class=post-categories><div class=article-category>&emsp;Series:
-<a class=article-category-link href=http://localhost:1313/series/de-faang/>De-FAANGing my Life</a></div></div></div><div class=article-entry itemprop=articleBody><p>Over the last few years, I&rsquo;ve experimented with various online services, free and paid, and explored their feature sets, advantages, and disadvantages. In recent months, I have come to the difficult conclusion that my set up, honed over the past many years, is not only sub-optimal, but is also waiting to break. I&rsquo;ve also realised that there is a great deal of dependency on Google, Apple, Microsoft, and other similar large tech companies, a group of corporations that used to, very aptly, be referred to as <a href=https://en.wikipedia.org/wiki/Big_Tech title="Big Tech">FAANG</a>. I now wish to remedy this.</p><h2 id=why-now>Why now?</h2><p>This is a tougher question to answer. Two weeks ago, in a bout of productive procrastination, I wanted to finally get my website up and running so I could blog regularly. I wished to move my writing away from substack, as it offered me very less customisation, and mostly because <a href=https://www.platformer.news/why-platformer-is-leaving-substack/>I don't like Nazis and would not want my writing to appear next to theirs</a>. I also wanted to see where to set my domain up so I could finally make the switch away from gmail and google services. Going through a whole bunch of <code>r/Privacy</code> threads, and various other blogs, gave me a lot of good starting points.</p><p>The other point accelerating this overdue reimagination is the LLM/AI hype that seems to be pervading both Big Tech and the other smaller Big Tech companies. Companies like Miro, Slack, Notion, and so many more, are being sucked into this hype, and, the end result is inevitably that the users are subject to even more intrusive privacy policies and terms and conditions. This same trend is also on Instagram, Twitter, and similar social networking sites.</p><h2 id=framework>Framework</h2><p>I want to, slowly but surely, replace as many of these big tech services as I can, replacing them with privacy focused alternatives.</p><h3 id=requirements>Requirements</h3><p>Here are a few key requirements for any product/service I use. I rely on the <a href=https://datatracker.ietf.org/doc/html/rfc2119>RFC2119</a> to guide my usage of imperatives in this and all blog posts.</p><ol><li>The product/service used MUST be audited by independent entities, and MAY be free and open source software.</li><li>They MUST allow for a simple migration framework, allowing me to switch services when needed.</li><li>They MUST rely on standard and open-source formats for any files generated during migration.</li><li>They MAY be self-hostable.</li><li>They MUST offer E2EE and TOTP based MFA.</li><li>They MAY offer Passwordless Authentication as well.</li><li>They MUST be cross-platform, or offer exports that allow me to replace the product with a cross-platform product.</li></ol><h3 id=guiding-principles>Guiding Principles</h3><p>But, beyond the framework, also needed is some guiding principles.</p><ol><li>Perfect is the enemy of good. Rules are meant to be broken, even my own rules. Every now and again I will use a service that doesn&rsquo;t employ perfect E2EE. Or falls short of the other requirements. Ability to migrate is the crucial point here.</li><li>Intentionality is the name of the game. Rome wasn&rsquo;t built in a day, and won&rsquo;t be destroyed in a day. Migration will take time.</li><li>FOSS alternatives are great, but ease-of-use and longevity are crucial as well. As much as possible, the <a href=https://en.wikipedia.org/wiki/Big_Tech>big 5</a> MUST be avoided, and if not, at the least their use justified.</li><li>Requirement #2 is important to keep in mind: Migration should be easy. You should be allowed to change your mind.</li><li>Your <a href=https://www.privacyguides.org/en/basics/threat-modeling/>threat model</a>, at this point, is simply limiting your ability to be tracked by big tech companies. This can change over time, but the focus of convenience is crucial as well.</li><li><a href=https://en.wikipedia.org/wiki/Online_piracy>Sailing the high seas</a> is inevitable in some cases, and should be considered as a serious option.</li><li>I am not and don&rsquo;t intend to be very stingy. I have (some) money to spend, and am happy to spend to contribute to developers who take their time to build good projects. For completely open source projects that I self-host, this might be sending them a coffee. I&rsquo;m also happy to pay for subscription services when needed - especially when I am using storage - I would rather pay them than Google One or iCloud. But - crucially, I plan to be very intentional about the paid services I use.</li></ol><p>These lists are non-exhaustive, and will be updated over time.</p><h2 id=there-be-dragons>There be Dragons</h2><p>A crucial point to note is - I am already currently enmeshed in quite a few ecosystems. My hardware is very Apple centric, and a lot of online services I use are from Microsoft and Google. So there are immediate pain points to be identified here.</p><ol><li>My current device is a MacBook, and my phone is an iPhone.</li><li>My primary email is still google, and though I am slowly trialing a migration to a custom domain email using Fastmail, it will take time. Fastmail is NOT E2EE, and this means that a potential backdoor just exists, which might make them vulnerable to requests from law enforcement in India and abroad.<ol><li>However, for now, I want the flexibility to use 3rd party email and calendar clients. Proton Mail, the other good alternative, has limitations in how it relays with IMAP email clients due to 2FA and E2EE.</li><li><a href=https://www.fastmail.com/blog/fastmails-servers-are-in-the-us-what-this-means-for-you/>They claim they&rsquo;re immune to such requests.</a></li><li>I&rsquo;m setting up my mail on my own domain - which will allow me to port when I find a reliable alternative I can stick to. And I will do that.</li></ol></li><li>I designed the current version of this website using hugo and a custom theme I found online. The theme I forked is hosted on github, as is my source code, which deploys the site using Github Actions. I am currently editing this in VS Code. Both Github and VS Code are owned by a Big 5 corp.</li><li>I communicate with most of my friends and my partner on WhatsApp, owned by Meta. I live in India, and it&rsquo;s simply the only practical option available. I am attempting to move away from WhatsApp for any long form communication, with the focus being interim communication, logistics, etc. I also do use iMessage, however sparingly, and do prefer aspects of iMessage to WhatsApp. But I would ideally move away from both - and hope to reach that place in the near future. In that case, WhatsApp or iMessage would not matter to me, and would only hold information regarding logistics of meeting elsewhere. This might involve switching on disappearing messages by default, and purging all old chats from memory, while exporting the important ones to my desktop. (WhatsApp also makes it very hard to migrate from one platform to another, a point that has always made me hate the platform.)</li><li>For any service that&rsquo;s ostensibly not needed to backup anything for me - I&rsquo;d like to use services that do not need an email ID to sign on. I am currently using the <a href=https://arc.net>Arc Browser</a>, a very intuitive browser with great work-life separation capabilities. But - it needs an email ID to sign in, and this might make me have to migrate to Firefox or Brave.</li></ol><h3 id=a-note-on-jumping-ship>A Note on Jumping Ship</h3><p>The point is - there are many dragons to slay. I gotta do this one day at a time. And no system will be perfect. We&rsquo;re aiming for better. I want to keep writing this series every week, and see how my progress varies over time.</p><p>This could mean a lot of things over time. The biggest change might come down to moving from an iPhone to an Android over time - to allow myself the customisation I need. Completely getting rid of the reliance on the big companies will take time. But, it&rsquo;s definitely on the roadmap.</p><p>I have been a sucker for convenience my whole life, so this will be a marked shift - to enter this zone of very less trust, much more verification - importantly - lesser reliance on the Apples of the world. But I like to think that I have been on this journey, at least internally, for a few years now. And this decision to fully jump ship is long overdue. The journey must start now.</p><h2 id=next-week>Next Week</h2><p>Next week - I want to talk in detail about 3 services we all use extensively - mail, cloud, and photos - and how I am de-googleing and de-faang-ing them. My focus will be - options considered, pros and cons weighed, pricing, how my migration is going, and how long before I replace my main service with these options. I hope to get into some detail.</p></div><div class=article-toc style=display:none><h3>Contents</h3><nav id=TableOfContents><ul><li><a href=#why-now>Why now?</a></li><li><a href=#framework>Framework</a><ul><li><a href=#requirements>Requirements</a></li><li><a href=#guiding-principles>Guiding Principles</a></li></ul></li><li><a href=#there-be-dragons>There be Dragons</a><ul><li><a href=#a-note-on-jumping-ship>A Note on Jumping Ship</a></li></ul></li><li><a href=#next-week>Next Week</a></li></ul></nav></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin=anonymous></script><script>(function(){var t,e=$("#TableOfContents");if(e.length>0){t=$(window);function n(){var n,o=t.scrollTop(),i=$(".article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6"),s="";if(i.each(function(e,t){t=$(t),t.offset().top-10<=o&&(s=t.attr("id"))}),n=e.find("a.active"),n.length==1&&n.eq(0).attr("href")=="#"+s)return!0;n.each(function(e,t){$(t).removeClass("active").siblings("ul").hide()}),e.find('a[href="#'+s+'"]').parentsUntil("#TableOfContents").each(function(e,t){$(t).children("a").addClass("active").siblings("ul").show()})}t.on("scroll",n),$(document).ready(function(){e.find("a").parent("li").find("ul").hide(),n(),document.getElementsByClassName("article-toc")[0].style.display=""})}})()</script><footer class=article-footer>Tags:<ul class=article-tag-list><li class=article-tag-list-item><a class=article-tag-list-link href=http://localhost:1313/tags/defaanging>defaanging</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=http://localhost:1313/tags/degoogleing>degoogleing</a></li></ul></footer></div><nav id=article-nav><a href=/2024/07/migrating-my-mail-and-cloud-de-faanging-my-life-ep-2/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp;
-Migrating my Mail and Cloud (De-Faanging my Life Ep #2)</div></a></nav></article></section><footer id=footer><div class=outer><div id=footer-info class=inner><center><script async data-uid=462cb7dd09 src=https://snehas.ck.page/462cb7dd09/index.js></script></center>&copy; 2024 Sneha S, hurtling through space<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script><script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>De-FAANGing and De-googling my Life Ep #1: Framework and Dragons // hurtling through space</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="author" content="map[email:hello@saisneha.com name:Sneha S]">
+    
+    
+
+        <meta property="og:title" content="De-FAANGing and De-googling my Life Ep #1: Framework and Dragons" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:url" content="https://saisneha.com/2024/06/de-faanging-and-de-googling-my-life-ep-1-framework-and-dragons/" />
+    
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="https://saisneha.com/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+    <link href="https://saisneha.com/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://saisneha.com/css/style.css">
+    
+
+    <meta name="generator" content="Hugo 0.128.0">
+</head>
+
+
+<body>
+<div id="container">
+    <header id="header">
+    <div id="header-outer" class="outer">
+        <div id="header-inner" class="inner">
+            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+            <a id="logo" class="logo-text" href="https://saisneha.com/">hurtling through space</a>
+            <nav id="main-nav">
+                
+                <a class="main-nav-link" href="/series/vhoip/">VHoIP</a>
+                
+                <a class="main-nav-link" href="/series/de-faang/">De-FAANG</a>
+                
+                <a class="main-nav-link" href="/about/">About</a>
+                
+                <a class="main-nav-link" href="/series/">Series</a>
+                
+            </nav>
+            <nav id="sub-nav">
+                <div id="search-form-wrap">
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <section id="main" class="outer">
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        <header class="article-header">
+            <h1 class="article-title" itemprop="name">De-FAANGing and De-googling my Life Ep #1: Framework and Dragons</h1>
+        </header>
+        
+        <div class="article-meta">
+            <a href="/2024/06/de-faanging-and-de-googling-my-life-ep-1-framework-and-dragons/" class="article-date">
+                <time datetime='2024-06-29T00:00:00.000&#43;00:00' itemprop="datePublished">2024-06-29</time>
+            </a>
+            
+            
+            <div class="post-categories">
+                <div class="article-category">
+                    &emsp;Series:
+                    
+                    
+                    
+                    <a class="article-category-link" href="https://saisneha.com/series/de-faang/">De-FAANGing my Life</a>
+                    
+                    
+                </div>
+            </div>
+            
+
+            
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            <p>Over the last few years, I&rsquo;ve experimented with various online services, free and paid, and explored their feature sets, advantages, and disadvantages. In recent months, I have come to the difficult conclusion that my set up, honed over the past many years, is not only sub-optimal, but is also waiting to break. I&rsquo;ve also realised that there is a great deal of dependency on Google, Apple, Microsoft, and other similar large tech companies, a group of corporations that used to, very aptly, be referred to as <a href="https://en.wikipedia.org/wiki/Big_Tech" title="Big Tech">FAANG</a>. I now wish to remedy this.</p>
+<h2 id="why-now">Why now?</h2>
+<p>This is a tougher question to answer. Two weeks ago, in a bout of productive procrastination, I wanted to finally get my website up and running so I could blog regularly. I wished to move my writing away from substack, as it offered me very less customisation, and mostly because <a href="https://www.platformer.news/why-platformer-is-leaving-substack/">I don't like Nazis and would not want my writing to appear next to theirs</a>. I also wanted to see where to set my domain up so I could finally make the switch away from gmail and google services. Going through a whole bunch of <code>r/Privacy</code> threads, and various other blogs, gave me a lot of good starting points.</p>
+<p>The other point accelerating this overdue reimagination is the LLM/AI hype that seems to be pervading both Big Tech and the other smaller Big Tech companies. Companies like Miro, Slack, Notion, and so many more, are being sucked into this hype, and, the end result is inevitably that the users are subject to even more intrusive privacy policies and terms and conditions. This same trend is also on Instagram, Twitter, and similar social networking sites.</p>
+<h2 id="framework">Framework</h2>
+<p>I want to, slowly but surely, replace as many of these big tech services as I can, replacing them with privacy focused alternatives.</p>
+<h3 id="requirements">Requirements</h3>
+<p>Here are a few key requirements for any product/service I use. I rely on the <a href="https://datatracker.ietf.org/doc/html/rfc2119">RFC2119</a> to guide my usage of imperatives in this and all blog posts.</p>
+<ol>
+<li>The product/service used MUST be audited by independent entities, and MAY be free and open source software.</li>
+<li>They  MUST allow for a simple migration framework, allowing me to switch services when needed.</li>
+<li>They MUST rely on standard and open-source formats for any files generated during migration.</li>
+<li>They MAY be self-hostable.</li>
+<li>They MUST offer E2EE and TOTP based MFA.</li>
+<li>They MAY offer Passwordless Authentication as well.</li>
+<li>They MUST be cross-platform, or offer exports that allow me to replace the product with a cross-platform product.</li>
+</ol>
+<h3 id="guiding-principles">Guiding Principles</h3>
+<p>But, beyond the framework, also needed is some guiding principles.</p>
+<ol>
+<li>Perfect is the enemy of good. Rules are meant to be broken, even my own rules. Every now and again I will use a service that doesn&rsquo;t employ perfect E2EE. Or falls short of the other requirements. Ability to migrate is the crucial point here.</li>
+<li>Intentionality is the name of the game. Rome wasn&rsquo;t built in a day, and won&rsquo;t be destroyed in a day. Migration will take time.</li>
+<li>FOSS alternatives are great, but ease-of-use and longevity are crucial as well. As much as possible, the <a href="https://en.wikipedia.org/wiki/Big_Tech">big 5</a> MUST be avoided, and if not, at the least their use justified.</li>
+<li>Requirement #2 is important to keep in mind: Migration should be easy. You should be allowed to change your mind.</li>
+<li>Your <a href="https://www.privacyguides.org/en/basics/threat-modeling/">threat model</a>, at this point, is simply limiting your ability to be tracked by big tech companies. This can change over time, but the focus of convenience is crucial as well.</li>
+<li><a href="https://en.wikipedia.org/wiki/Online_piracy">Sailing the high seas</a> is inevitable in some cases, and should be considered as a serious option.</li>
+<li>I am not and don&rsquo;t intend to be very stingy. I have (some) money to spend, and am happy to spend to contribute to developers who take their time to build good projects. For completely open source projects that I self-host, this might be sending them a coffee. I&rsquo;m also happy to pay for subscription services when needed - especially when I am using storage - I would rather pay them than Google One or iCloud. But - crucially, I plan to be very intentional about the paid services I use.</li>
+</ol>
+<p>These lists are non-exhaustive, and will be updated over time.</p>
+<h2 id="there-be-dragons">There be Dragons</h2>
+<p>A crucial point to note is - I am already currently enmeshed in quite a few ecosystems. My hardware is very Apple centric, and a lot of online services I use are from Microsoft and Google. So there are immediate pain points to be identified here.</p>
+<ol>
+<li>My current device is a MacBook, and my phone is an iPhone.</li>
+<li>My primary email is still google, and though I am slowly trialing a migration to a custom domain email using Fastmail, it will take time. Fastmail is NOT E2EE, and this means that a potential backdoor just exists, which might make them vulnerable to requests from law enforcement in India and abroad.
+<ol>
+<li>However, for now, I want the flexibility to use 3rd party email and calendar clients. Proton Mail, the other good alternative, has limitations in how it relays with IMAP email clients due to 2FA and E2EE.</li>
+<li><a href="https://www.fastmail.com/blog/fastmails-servers-are-in-the-us-what-this-means-for-you/">They claim they&rsquo;re immune to such requests.</a></li>
+<li>I&rsquo;m setting up my mail on my own domain - which will allow me to port when I find a reliable alternative I can stick to. And I will do that.</li>
+</ol>
+</li>
+<li>I designed the current version of this website using hugo and a custom theme I found online. The theme I forked is hosted on github, as is my source code, which deploys the site using Github Actions. I am currently editing this in VS Code. Both Github and VS Code are owned by a Big 5 corp.</li>
+<li>I communicate with most of my friends and my partner on WhatsApp, owned by Meta. I live in India, and it&rsquo;s simply the only practical option available. I am attempting to move away from WhatsApp for any long form communication, with the focus being interim communication, logistics, etc. I also do use iMessage, however sparingly, and do prefer aspects of iMessage to WhatsApp. But I would ideally move away from both - and hope to reach that place in the near future. In that case, WhatsApp or iMessage would not matter to me, and would only hold information regarding logistics of meeting elsewhere. This might involve switching on disappearing messages by default, and purging all old chats from memory, while exporting the important ones to my desktop. (WhatsApp also makes it very hard to migrate from one platform to another, a point that has always made me hate the platform.)</li>
+<li>For any service that&rsquo;s ostensibly not needed to backup anything for me - I&rsquo;d like to use services that do not need an email ID to sign on. I am currently using the <a href="https://arc.net">Arc Browser</a>, a very intuitive browser with great work-life separation capabilities. But - it needs an email ID to sign in, and this might make me have to migrate to Firefox or Brave.</li>
+</ol>
+<h3 id="a-note-on-jumping-ship">A Note on Jumping Ship</h3>
+<p>The point is - there are many dragons to slay. I gotta do this one day at a time. And no system will be perfect. We&rsquo;re aiming for better. I want to keep writing this series every week, and see how my progress varies over time.</p>
+<p>This could mean a lot of things over time. The biggest change might come down to moving from an iPhone to an Android over time - to allow myself the customisation I need. Completely getting rid of the reliance on the big companies will take time. But, it&rsquo;s definitely on the roadmap.</p>
+<p>I have been a sucker for convenience my whole life, so this will be a marked shift - to enter this zone of very less trust, much more verification - importantly - lesser reliance on the Apples of the world. But I like to think that I have been on this journey, at least internally, for a few years now. And this decision to fully jump ship is long overdue. The journey must start now.</p>
+<h2 id="next-week">Next Week</h2>
+<p>Next week - I want to talk in detail about 3 services we all use extensively - mail, cloud, and photos - and how I am de-googleing and de-faang-ing them. My focus will be - options considered, pros and cons weighed, pricing, how my migration is going, and how long before I replace my main service with these options. I hope to get into some detail.</p>
+        </div>
+
+        
+            
+                <div class="article-toc" style="display:none;">
+                    <h3>Contents</h3>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-now">Why now?</a></li>
+    <li><a href="#framework">Framework</a>
+      <ul>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#guiding-principles">Guiding Principles</a></li>
+      </ul>
+    </li>
+    <li><a href="#there-be-dragons">There be Dragons</a>
+      <ul>
+        <li><a href="#a-note-on-jumping-ship">A Note on Jumping Ship</a></li>
+      </ul>
+    </li>
+    <li><a href="#next-week">Next Week</a></li>
+  </ul>
+</nav>
+                </div>
+            
+        
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+        <script>
+            (function() {
+                var $toc = $('#TableOfContents');
+                if ($toc.length > 0) {
+                    var $window = $(window);
+
+                    function onScroll(){
+                        var currentScroll = $window.scrollTop();
+                        var h = $('.article-entry h1, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5, .article-entry h6');
+                        var id = "";
+                        h.each(function (i, e) {
+                            e = $(e);
+                            if (e.offset().top - 10 <= currentScroll) {
+                                id = e.attr('id');
+                            }
+                        });
+                        var active = $toc.find('a.active');
+                        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+                        active.each(function (i, e) {
+                            $(e).removeClass('active').siblings('ul').hide();
+                        });
+                        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+                            $(e).children('a').addClass('active').siblings('ul').show();
+                        });
+                    }
+
+                    $window.on('scroll', onScroll);
+                    $(document).ready(function() {
+                        $toc.find('a').parent('li').find('ul').hide();
+                        onScroll();
+                        document.getElementsByClassName('article-toc')[0].style.display = '';
+                    });
+                }
+            })();
+        </script>
+        
+
+
+
+        
+        <footer class="article-footer">
+            Tags:
+            <ul class="article-tag-list">
+                
+                <li class="article-tag-list-item">
+                    <a class="article-tag-list-link" href="https://saisneha.com/tags/defaanging">defaanging
+                    </a>
+                </li>
+                
+                <li class="article-tag-list-item">
+                    <a class="article-tag-list-link" href="https://saisneha.com/tags/degoogleing">degoogleing
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+    </div>
+    
+<nav id="article-nav">
+    
+    <a href="/2024/07/migrating-my-mail-and-cloud-de-faanging-my-life-ep-2/" id="article-nav-newer" class="article-nav-link-wrap">
+        <div class="article-nav-title"><span>&lt;</span>&nbsp;
+            Migrating my Mail and Cloud (De-Faanging my Life Ep #2)
+        </div>
+    </a>
+    
+    
+    <a href="/2023/05/sex_and_gender_are_socially_constructed/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">Isn&#39;t Sex just as socially constructed as Gender is, if not more?&nbsp;<span>&gt;</span></div>
+    </a>
+    
+   
+</nav>
+
+
+
+</article>
+
+        
+    </section>
+    
+<footer id="footer">
+    
+    <div class="outer">
+        
+        <div id="footer-info" class="inner">
+            <center><script async data-uid="462cb7dd09" src="https://snehas.ck.page/462cb7dd09/index.js"></script></center>
+            &copy; 2024 Sneha S, hurtling through space
+            <br />
+            Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank">Minos</a>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css" integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    <script>
+        document.getElementById('main-nav-toggle').addEventListener('click', function () {
+            var header = document.getElementById('header');
+            if (header.classList.contains('mobile-on')) {
+                header.classList.remove('mobile-on');
+            } else {
+                header.classList.add('mobile-on');
+            }
+        });
+    </script>
+</footer>
+
+</div>
+</body>
+</html>
