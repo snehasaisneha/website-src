@@ -24,7 +24,7 @@ The only options I seriously considered were Proton and Fastmail - for simplicit
 
 For all these reasons, Fastmail was the clear winner. There are a few issues I take with Fastmail - it doesn't offer a desktop client for the drive, for one. It also has weird quirks wrt folders vs labels, only letting you pick one. It's also almost certainly not what someone from the infosec community would recommend. It's a consumer facing service - first and foremost, while Proton is, at least currently, an enthusiast product. I think I'm simply not that much of an enthusiast at the moment. Fastmail also has a reliable 25 year history, to Proton's 10 years.
 
-So - I've picked Fastmail and have made the switch to it, switching a lot of my major services there already, and autoforwarding my current email there. I expect a full transition will take 3-6 months (there are bank emails and govt websites to make the changes on - and I am not in the biggest hurry to change everything in a day), but this is a great start. You can drop me a line at [hello@saisneha.com](mailto:hello@saisneha.com)!
+So - I've picked Fastmail and have made the switch to it, switching a lot of my major services there already, and autoforwarding my current email there. I expect a full transition will take 3-6 months (there are bank emails and govt websites to make the changes on - and I am not in the biggest hurry to change everything in a day), but this is a great start. You can drop me a line at [blogging@saisneha.com](mailto:blogging@saisneha.com)!
 
 Using a custom domain also allows me to migrate if and when I decide to. Another part of my plan will be to ruthlessly delete emails that aren't relevant to me anymore, an exercise that can be partially automated and partially needs to be manual. 
 
@@ -70,6 +70,6 @@ There's a lot of different things left to do, and I am in no mood to rush things
 
 Phew. It's been a couple of weeks packed with work, but this has been a fun side exercise to keep up at. I've enjoyed it. Thanks for reading a fairly long ramble.
 
-Next time - I hope to have better answers on the cloud side, and some solid feedback on Ente photos. Drop me any comments at [hello@saisneha.com](mailto:hello@saisneha.com), I'd definitely appreciate it.
+Next time - I hope to have better answers on the cloud side, and some solid feedback on Ente photos. Drop me any comments at [blogging@saisneha.com](mailto:blogging@saisneha.com), I'd definitely appreciate it.
 
 Until then!

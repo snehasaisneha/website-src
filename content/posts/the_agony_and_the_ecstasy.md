@@ -5,6 +5,8 @@ slug = "the_agony_and_the_ecstasy"
 tags = ["substack-migration"]
 +++
 
+This is a follow-up to the piece that inspired the title of this blog - [Hurtling Through Space](hurtling_through_space)
+
 It’s always an experience to stare at the night sky and feel it be so far away,
 
 feel its vast nothingness, with specs of gas giants in between.

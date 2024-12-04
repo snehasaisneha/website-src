@@ -1,6 +1,6 @@
 +++
 title = 'Hurtling through Space'
-date = 2023-01-22T00:00:00+05:30
+date = 2022-01-22T00:00:00+05:30
 slug = "hurtling_through_space"
 tags = ["substack-migration"]
 +++
@@ -85,4 +85,8 @@ Perhaps.
 
 I hope to see you that day. Until then, all my love is yours, forever and always.
 
+---
+
 Note: Some of the imagery in this piece is inspired by Abigail Thorn of Philosophy Tube’s video titled “[Suic!de and Ment@l He@lth](Suic!de and Ment@l He@lth)” from September of 2018. It is a heartbreakingly beautiful video, and I highly recommend you watch it.
+
+I wrote a [follow up](the_agony_and_the_ecstasy) to this piece almost a year after I wrote this one. 

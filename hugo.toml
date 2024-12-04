@@ -29,11 +29,15 @@ theme = "hugo-theme-minos"
   [[menus.main]]
     name = 'About'
     pageRef = '/about/'
-    weight = 40
+    weight = 10
+  [[menus.main]]
+    name = 'Archive'
+    pageRef = '/posts/'
+    weight = 60
 
 [params.author]
 name = "Sneha S"
-email = "hello@saisneha.com"
+email = "blogging@saisneha.com"
 
 [params]
   smartToc = true
